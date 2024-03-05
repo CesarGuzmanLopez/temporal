@@ -1,0 +1,92 @@
+.img-cont{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.225 );
+    border-bottom: 1px solid rgba(255, 255, 255, 0.225 );
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.image-workspace, .image-workspace-2{
+    height: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-workspace-2{
+    display: none;
+
+}
+
+.image-workspace img,.image-workspace-2 img{
+    width:  100%;
+    object-fit: cover;
+}
+
+
+.action-button{
+    display: inline-block;
+    border-right: 1px solid rgba(255, 255, 255, 0.225 );
+}
+
+.action-button .upload,
+.action-button .download{
+    display: block;
+    width: 170px;
+    height: 35px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.02 ) 0px 2px 8px 0px;
+    border: 1px solid rgba(99, 99, 99, 0.02 );
+}
+
+.action-button .upload:active,
+.action-button .download:active{
+    border: 1px solid  rgba(255, 255, 255, 0.4 );
+}
+
+
+.zoom,.rotate,.flip{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip{
+    margin-right: 20px;
+}
+
+.btn-edit{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.btn-edit li{
+    list-style: none;
+}
+
+.btn-edit li svg{
+   fill: #da2131 ;
+}
+
